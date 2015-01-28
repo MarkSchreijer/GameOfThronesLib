@@ -29,5 +29,18 @@ namespace GameOfThronesLib.Test
         {
             Assert.AreEqual(1, _familyController.Largest(new int[] { 1 }));
         }
+
+        [TestMethod]
+        public void TestNegative()
+        {
+            int[] negList = new int[] { -9, -8, -7 };
+            Assert.AreEqual(-7, _familyController.Largest(negList));
+        }
+
+        [TestMethod, ExpectedException(typeof(ArgumentException))]
+        public void TestEmpty()
+        {
+            _familyController.Largest(new int[] { });
+        }
     }
 }

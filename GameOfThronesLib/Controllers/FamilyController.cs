@@ -27,7 +27,13 @@ namespace GameOfThronesLib.Controller
 
         public int Largest(int[] list)
         {
-            int max = 0;
+            int max = Int32.MinValue;
+
+            if (list.Length == 0)
+            {
+                throw new ArgumentException("Largest: Empty list");
+            }
+
             for(int i = 0; i < list.Length; i++)
             {
                 if (list[i] > max)
