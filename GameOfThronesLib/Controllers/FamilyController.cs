@@ -24,5 +24,19 @@ namespace GameOfThronesLib.Controller
             var families = _context.Families.ToList();
             return families;
         }
+
+        public int Largest(int[] list)
+        {
+            int max = 0;
+            for(int i = 0; i < list.Length; i++)
+            {
+                if (list[i] > max)
+                {
+                    max = list[i];
+                }
+            }
+
+            return max;
+        }
     }
 }

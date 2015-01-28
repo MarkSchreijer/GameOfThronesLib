@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CF384F
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfThronesLib.Test", "GameOfThronesLib.Test\GameOfThronesLib.Test.csproj", "{ED5F533D-468C-40BF-AB83-037DB47A6A1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{6A70ED0A-D73C-4520-997E-940EEB9421B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A70ED0A-D73C-4520-997E-940EEB9421B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A70ED0A-D73C-4520-997E-940EEB9421B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5F533D-468C-40BF-AB83-037DB47A6A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5F533D-468C-40BF-AB83-037DB47A6A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5F533D-468C-40BF-AB83-037DB47A6A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5F533D-468C-40BF-AB83-037DB47A6A1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
